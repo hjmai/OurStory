@@ -1,4 +1,3 @@
-var seenAll = false;
 $(document).ready(function(){
     $('.next').on('click', function(){
         $('.back').removeClass('hidden');
