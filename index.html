@@ -20,34 +20,61 @@
     </head>
     <body background="./assets/images/pink_rice.png" class="animated fadeIn">
         <h1 class="text-center text-white" style="font-size: 32px;">Trip Down Memory Lane</h1>
-        <h4 class="text-center text-white" >Well, here goes. I hope you enjoy this ride we're about to take!</h4>
-        <div class="container text-center text-white" style="padding-top: 10px;">
+        <h4 class="text-center text-white hereGoes" >Well, here goes. I hope you enjoy this ride we're about to take!</h4>
+        <div class="container text-center " style="padding-top: 10px;">
             <div id="carouselContent" class="carousel slide" data-interval="false">
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active text-center p-3">
+                    <div class="carousel-item active text-center p-3" data-hide="yes">
                         <p>In case you need tissues, Jenny will have some for you. I told you, I would include your
                            dad in every way possible. It starts here. It has always started here. I miss your Dad a lot and I know you miss him even more. 
                            I tried to pray every day, ever since he passed, to help me be the one you needed in your life. After all, he gave me 
                            the blessing I needed. I just took a bit longer than I wanted but I'm glad you waited for me. Now begins our year long journey together
-                           till the date. And I know your Dad is up there watching over us, every step of the way.
+                           till the date. And I know your Dad is up there watching over us, every step of the way. And we'll continue to talk and pray to him every
+                           day if we can. As a matter of fact, as you're reading this, I'm doing final preparations. But it doesn't matter where in the world I am. 
+                           When it hits 4:22PM, just know I'm going to be praying for him if you'd like to join me.
                         </p>
                     </div>
-                    <div class="carousel-item text-center p-3">
+                    <div class="carousel-item text-center p-3" data-hide="no">
                         <img class="img-fluid" src="./assets/images/1.jpg">
                         <p>This was our first date! We talked about it before and we'll talk about it over and over again! Remember how nervous we were?
                            Freaking dorky us, researching how to kiss. We ended up being exposed by my sister and cousins. Smooch smooch smooch! I always
                            wore that nice guy shirt because honestly, I wanted you to know I was a nice guy. I'm glad you've stuck with me this entire time.
                         </p>
                     </div>
-                    <div class="carousel-item text-center p-3">
+                    <div class="carousel-item text-center p-3" data-hide="no">
                         <img src="./assets/images/2.jpg" class="img-fluid">
-                        <p>This little doodle at our one month got me through so much.</p>
+                        <p>This little doodle at our one month got me through so much. I proudly walked around school with this on the front of my binder.</p>
                     </div>
+                    <div class="carousel-item text-center p-3" data-hide="no">
+                        <img src="./assets/images/3.jpg" alt="" class="img-fluid">
+                        <p>You knew my obsession with green and you went out of your way to wear a green ao dai for me.</p>
+                    </div>
+                    <div class="carousel-item text-center p-3" data-hide="no">
+                        <img src="./assets/images/4.jpg" alt="" class="img-fluid">
+                        <p>We went to the ACT just to hang out with each other</p>
+                    </div>
+                    <div class="carousel-item text-center p-3" data-hide="no">
+                        <img src="./assets/images/5.jpg" alt="" class="img-fluid">
+                        <p>Tet Festival!! Expensive night but full of fun and food. Why are we always so awkward?</p>
+                    </div>
+                    <div class="carousel-item text-center p-3" data-hide="no">
+                        <img src="./assets/images/6.jpg" alt="" class="img-fluid">
+                        <p>I was so mad that you said you couldn't come visit me at tutoring. And then you go and dress up in a bear suit and ask me to prom. The best day ever!!!</p>
+                    </div>
+                    <div class="carousel-item text-center p-3" data-hide="no">
+                        <img src="./assets/images/7.jpg" alt="" class="img-fluid">
+                        <p>Omg prom? What's up with my hair huh? I remember we were both sad that we didn't get to spend that long of a night together for prom but we made it worth it every step of the way!</p>                        
+                    </div>
+                    <div class="carousel-item text-center p-3" data-hide="no">
+                        <img src="./assets/images/8.jpg" alt="" class="img-fluid">
+                        <p>You loved feeding ducks and squirrels. And remember those red toms I bought you?! Haha!</p>
+                    </div>
+                    
                 </div>
             </div>
             <div class="buttons">
-                <a class="btn btn-danger" href="#carouselContent" role="button" data-slide="prev">Back</a>
-                <a class="btn btn-danger" href="#carouselContent" role="button" data-slide="next">Next</a>
+                <a class="btn btn-danger hidden back" href="#carouselContent" role="button" data-slide="prev">Back</a>
+                <a class="btn btn-danger next" href="#carouselContent" role="button" data-slide="next">Next</a>
             </div>
         </div>
         <script src="./assets/javascript/app.js"></script>

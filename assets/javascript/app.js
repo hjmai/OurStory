@@ -1,16 +1,13 @@
-// $(document).ready(function(){
-//     $('.fadeIn').fadeIn(2000);
-// });
-
-$('.next').on('click', function(){
-    $('.current').addClass('fadeOutLeft');
-    setTimeout(function(){
-        $('.current').removeClass('fadeIn');
-        $('.current').removeClass('fadeOutLeft');
-        $('.current').removeClass('current');
-    }, 3000)
-})
-$('.back').on('click', function(){
-    $('.current').addClass('fadeInRight');
+var seenAll = false;
+$(document).ready(function(){
+    $('.next').on('click', function(){
+        $('.back').removeClass('hidden');
+        $('.hereGoes').empty();
+    })
+    $('.back').on('click', function(){
+        if($('.active').data('hide') == 'yes'){
+            $('.back').addClass('hidden');
+        }
+    });
 });
 $('.carousel').carousel();

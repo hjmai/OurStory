@@ -1,6 +1,9 @@
+.text-white{
+    text-shadow: 2px 1px rgba(0,0,0,0.7);
+}
 body{
-    text-shadow: 2px 1px rgba(0,0,0,0.3);
     height: 80vh;
+    color: black;
 }
 .buttons{
     position: fixed;
@@ -17,4 +20,7 @@ body{
 .carousel-item-next,
 .carousel-item-prev{
     display:block;
+}
+.hidden{
+    display: none;
 }
