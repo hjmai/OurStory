@@ -1,0 +1,20 @@
+body{
+    text-shadow: 2px 1px rgba(0,0,0,0.3);
+    height: 80vh;
+}
+.buttons{
+    position: fixed;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.container{
+    height: inherit;
+    overflow: auto;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
